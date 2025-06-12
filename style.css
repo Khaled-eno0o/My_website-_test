@@ -99,6 +99,16 @@ section {
   background-color: #0a49f6;
   transform: scale(1.1)
 }
+.social-icons img {
+  width: 30px;
+  height: 30px;
+  filter: brightness(1.2);
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
 .social-icons a {
   color: #fff;
   font-size: 1.7em;
